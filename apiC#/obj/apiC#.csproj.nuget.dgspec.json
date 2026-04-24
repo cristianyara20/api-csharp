@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\api-csharp\\apiC#\\apiC#.csproj": {}
+    "c:\\Users\\Usuario\\api-csharp\\apiC#\\apiC#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\api-csharp\\apiC#\\apiC#.csproj": {
+    "c:\\Users\\Usuario\\api-csharp\\apiC#\\apiC#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\api-csharp\\apiC#\\apiC#.csproj",
+        "projectUniqueName": "c:\\Users\\Usuario\\api-csharp\\apiC#\\apiC#.csproj",
         "projectName": "apiC#",
-        "projectPath": "C:\\Users\\Usuario\\api-csharp\\apiC#\\apiC#.csproj",
+        "projectPath": "c:\\Users\\Usuario\\api-csharp\\apiC#\\apiC#.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\api-csharp\\apiC#\\obj\\",
+        "outputPath": "c:\\Users\\Usuario\\api-csharp\\apiC#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

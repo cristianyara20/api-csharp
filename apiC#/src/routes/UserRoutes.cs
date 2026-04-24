@@ -1,4 +1,4 @@
-using MiApiRestCsharp.Controllers;
+using MIApiRestCsharp.Controllers;
 
 namespace MiApiRestCsharp.Routes;
 
