@@ -17,11 +17,12 @@ app.UseCors();
 //PRUEBAS (ruta base)
 app.MapGet("/", () => Results.Json(new { message = "¡Bienvenido a la API REST!", version = "1.0.0" }));
 
-// USERS (Registrar las rutas de usuario)
-app.MapUserRoutes();
-
-// Manejo de errores para rutas no encontradas (404)
-app.MapFallback(() => Results.NotFound(new { error = "Ruta no encontrada" }));
+// CRUD de usuarios
+app.MapGet("/api/users", MIApiRestCsharp.Controllers.UserController.GetAllUsers);
+app.MapGet("/api/users/{id}", MIApiRestCsharp.Controllers.UserController.GetUserById);
+app.MapPost("/api/users", MIApiRestCsharp.Controllers.UserController.CreateUser);
+app.MapPut("/api/users/{id}", MIApiRestCsharp.Controllers.UserController.UpdateUser);
+app.MapDelete("/api/users/{id}", MIApiRestCsharp.Controllers.UserController.DeleteUser);
 
 //Manejo de errores para rutas no encontradas (404)
 app.MapFallback(() => Results.NotFound(new { error = "Ruta no encontrada" }));
